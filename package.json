@@ -1,0 +1,30 @@
+{
+  "name": "mad-libs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": "5.10.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "postinstall": "bower i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minditorrey/mad-libs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minditorrey/mad-libs/issues"
+  },
+  "homepage": "https://github.com/minditorrey/mad-libs#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
+  }
+}
