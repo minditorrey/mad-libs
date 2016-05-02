@@ -5,6 +5,7 @@
   <title>mad libs</title>
   <!-- <link rel="stylesheet" href="/bower_components/sweetalert/dist/sweetalert.css"> -->
   <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
   <link rel="stylesheet" href="style.css">
   <script src="/bower_components/angular/angular.min.js"></script>
   <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
@@ -21,7 +22,7 @@
 <body ng-app='madlibsApp'>
 <div class="container-fluid">
     <h1>mad libs</h1>
-        <p class="intro">Turn spontaneous word play into a fun story!</p>
+        <p class="intro animated swing">Turn spontaneous word play into a fun story!</p>
     
   <div id="bottom" class="intro" ng-hide="toggle">
     <button class="btn btn-lg btn-primary begin" ng-click="toggle = !toggle" ui-sref='form'>Begin!</button>
