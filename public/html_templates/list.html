@@ -1,15 +1,16 @@
 <div class="row">
-    <div class="col-sm-11 col-sm-offset-1">
+    <div class="col-sm-10 col-sm-offset-1">
         
         <h2 class="choose">Choose a theme:</h2>
-        <div ng-repeat='theme in themes'>
-            <div class="col-sm-2 well" >
-                <img class="thumbnails" max-width="200px" src="{{theme.image}}">
-                    <h3>{{theme.name}}:</h3>
-                    <p>{{theme.description}}</p>
+        <div class="well bigWell">
+            <div ng-repeat='theme in themes'>
+                <div class="col-sm-2 well" >
+                    <img class="thumbnails" max-width="200px" src="{{theme.image}}">
+                        <h3>{{theme.name}}</h3>
+                        
+                        <button class="btn btn-lg btn-success go">Go!</button>
+                </div>
             </div>
-            
-
         </div>
        
 

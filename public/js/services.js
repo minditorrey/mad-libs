@@ -21,6 +21,9 @@ app.factory('ThemesFactory', function(){
 	}, {'name': "Empire",
 	'description': "The streets ain't made for everybody. That's why we made mad libs.",
 	'image': "https://www.cbs.com/thumbnails/videos/w640/CBS_Production_Entertainment_VMS/2013/11/20/67244611956/ent_poi_epk_112013_640x360.jpg"
+	}, {'name': "Game of Thrones",
+	'description': "Winter is coming. Mad lib while you still can.",
+	'image': "http://s.newsweek.com/sites/www.newsweek.com/files/styles/embed-lg/public/2016/02/12/data-broadband-download-record-game-thrones.jpg"
 	}]
 
 	var themesObject = {

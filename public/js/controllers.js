@@ -2,7 +2,9 @@
 
 var app = angular.module('madlibsApp');
 
+
 app.controller('listController', function($scope, $state, Stories, ThemesFactory) {
+	
 	var themes = ThemesFactory.getAll()
 	console.log(themes)
 	$scope.themes = themes;

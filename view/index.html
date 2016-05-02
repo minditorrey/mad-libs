@@ -18,9 +18,11 @@
 <body ng-app='madlibsApp'>
 <div class="container-fluid">
     <h1>mad libs</h1>
-        <p>A fun game that takes spontaneous word play and turns it into a funny story!</p>
-    <button class="btn btn-lg btn-success begin" ui-sref='list'>Begin!</button>
-
+        <p id="intro">Turns spontaneous word play into a funny story!</p>
+    
+  <div id="bottom" class="intro" ng-hide="toggle">
+    <button class="btn btn-lg btn-primary begin" ng-click="toggle = !toggle" ui-sref='list'>Begin!</button>
+  </div>
 
  
 

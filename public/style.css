@@ -1,6 +1,53 @@
 body {
 	padding: 3%;
+	background-color: black;
+	color: white;
+	background-image: url(http://i.imgur.com/l1aSuEA.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
 }
+
+
+h1 {
+	font-size: 72px;
+	text-align: center;
+	color: #337ab7;
+	text-shadow: white 1px 1px;
+	margin-top: -2%; 
+	font-weight: bold;
+}
+
+#intro {
+
+	font-size: 22px;
+	color: #337ab7;
+	text-align: center;
+	font-weight: bold;
+}
+
+#bottom {
+	text-align: center;
+}
+.begin {
+	margin-top: 1%;
+	
+	font-size: 22px;
+	  padding: 18px 38px;
+    font-size: 22px; //change this to your desired size
+    line-height: normal;
+    border-radius: 8px;
+    border-radius: 8px;
+    border-radius: 8px;
+}
+
+h2 {
+	color: #337ab7;
+	text-shadow: white 1px 1px 1px;
+	text-align: center; 
+	font-weight: bold;
+
+}
+
 h3 {
 	font-size: 22px;
 }
@@ -8,14 +55,31 @@ h3 {
 img{
     width:100%;
     max-width:220px;
-    margin-bottom: 12px;
+    margin-bottom: 3px;
 }
 
 .well {
 	margin-left: 3%;
 	font-size: 18px;
-	min-height: 400px;
-	max-height: 450px;
+	color: #337ab7;
+	min-height: 260px;
+	max-height: 260px;
+	box-shadow: 2px 2px 1px gray;
+	text-align: center;
+
+}
+
+.bigWell {
+	min-height: 300px;
+	box-shadow: 4px 4px 2px gray;
+	background-color: 	#d7e4ef;
+	margin-top: 5%;
+}
+
+.go {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 6px;
 }
 
 .choose {
@@ -28,3 +92,4 @@ img{
 	font-size: 22px;
 
 }
+
