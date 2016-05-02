@@ -56,4 +56,3 @@ app.controller('modalController', function($scope, $state, $uibModal, $log, Spee
 
 
 
-
