@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="style.css">
   <script src="/bower_components/angular/angular.min.js"></script>
   <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="/bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+  <script src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  
     <!--<script src="/bower_components/ngSweetAlert/SweetAlert.min.js"></script>
     <script src="/bower_components/sweetalert/dist/sweetalert.min.js"></script> -->
 
@@ -18,10 +21,10 @@
 <body ng-app='madlibsApp'>
 <div class="container-fluid">
     <h1>mad libs</h1>
-        <p id="intro">Turns spontaneous word play into a funny story!</p>
+        <p class="intro">Turn spontaneous word play into a fun story!</p>
     
   <div id="bottom" class="intro" ng-hide="toggle">
-    <button class="btn btn-lg btn-primary begin" ng-click="toggle = !toggle" ui-sref='list'>Begin!</button>
+    <button class="btn btn-lg btn-primary begin" ng-click="toggle = !toggle" ui-sref='form'>Begin!</button>
   </div>
 
  

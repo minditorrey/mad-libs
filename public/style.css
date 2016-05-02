@@ -1,9 +1,10 @@
 body {
 	padding: 3%;
-	background-color: black;
+	background-color: #efe9e8;
+
 	color: white;
 	background-image: url(http://i.imgur.com/l1aSuEA.jpg);
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	background-size:100%;
 }
 
@@ -17,7 +18,10 @@ h1 {
 	font-weight: bold;
 }
 
-#intro {
+#startForm {
+	text-align: center;
+}
+.intro {
 
 	font-size: 22px;
 	color: #337ab7;
@@ -93,3 +97,11 @@ img{
 
 }
 
+.formWell {
+	min-height: 1200px;
+	margin-top: 5%;
+}
+
+#submitForm {
+	margin-top: 2%;
+}

@@ -2,6 +2,7 @@
 
 var app = angular.module('madlibsApp');
 
+
 app.service('Stories', function() {
 
 
@@ -32,4 +33,46 @@ app.factory('ThemesFactory', function(){
 		}
 	}
 	return themesObject;
+})
+
+app.factory('SpeechValuesFactory', function(){
+	var speechValues = [
+	{'id': '1',
+	'value': 'noun'
+	}, {'id': '2',
+	'value': 'adjective'
+	}, {'id': '3',
+	'value': 'person'
+	}, {'id': '4',
+	'value': 'game'
+	}, {'id': '5',
+	'value': 'number'
+	}, {'id': '6',
+	'value': 'noun'
+	}, {'id': '7',
+	'value': 'body part'
+	}, {'id': '8',
+	'value': 'adjective'
+	}, {'id': '9',
+	'value': 'place'
+	}, {'id': '10',
+	'value': 'name of singer'
+	}, {'id': '11',
+	'value': 'noun'
+	}, {'id': '12',
+	'value': 'same person'
+	}, {'id': '13',
+	'value': 'sport'
+	}, {'id': '14',
+	'value': 'noun'
+	}, {'id': '15',
+	'value': 'noun'
+	}]
+
+	var speechValuesObject = {
+		getAll: function() {
+			return speechValues;
+		}
+	}
+	return speechValuesObject;
 })

@@ -1,4 +1,4 @@
-var app = angular.module('madlibsApp', ['ui.router']);
+var app = angular.module('madlibsApp', ['ui.router', 'ui.bootstrap.modal']);
 
 app.config(function($stateProvider, $urlRouterProvider) {
 
@@ -9,14 +9,19 @@ app.config(function($stateProvider, $urlRouterProvider) {
 			controller: 'listController'
 		})
 		.state('form', {
-			url: '/detail/:id',
+			url: '/form',
 			templateUrl: '/html_templates/form.html',
-			controller: 'detailController'
+			controller: 'formController'
 		})
 		.state('story', {
 			url: '/story',
-			templateUrl: '/html/story.html',
+			templateUrl: '/html_templates/story.html',
 			controller: 'storyController'
+		})
+		.state('modal', {
+			url: '/modal',
+			templateUrl: '/html_templates/modal.html',
+			controller: 'modalController'
 		})
 
 	$urlRouterProvider.otherwise('/');
